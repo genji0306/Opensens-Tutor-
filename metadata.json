@@ -1,0 +1,5 @@
+{
+  "name": "KidTutor Manager",
+  "description": "A comprehensive dashboard for parents to manage AI-powered learning devices, configure tutor personalities, and monitor child progress.",
+  "requestFramePermissions": []
+}
