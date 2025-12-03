@@ -6,6 +6,7 @@ import ChildrenManager from './components/ChildrenManager';
 import DeviceManager from './components/DeviceManager';
 import TutorConfigPage from './components/TutorConfig';
 import LessonBuilder from './components/LessonBuilder';
+import Settings from './components/Settings';
 
 // Basic wrapper component for pages not fully implemented to avoid routing errors
 const Placeholder = ({ title }: { title: string }) => (
@@ -25,6 +26,7 @@ const App: React.FC = () => {
           <Route path="/devices" element={<DeviceManager />} />
           <Route path="/tutors" element={<TutorConfigPage />} />
           <Route path="/lessons" element={<LessonBuilder />} />
+          <Route path="/settings" element={<Settings />} />
           <Route path="*" element={<Placeholder title="Page Not Found" />} />
         </Routes>
       </Layout>
